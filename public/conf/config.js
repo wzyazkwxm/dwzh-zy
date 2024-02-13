@@ -1,10 +1,10 @@
 window.config = {
   // 网站标题
-  siteName: 'Subconverter Web',
+  siteName: '开源爱好者订阅转换',
   // API 地址
-  apiUrl: 'http://127.0.0.1:25500',
+  apiUrl: 'https://cfysjd.wzry623090.workers.dev',
   // 短域名服务地址
-  shortUrl: 'https://s.ops.ci',
+  shortUrl: 'https://suo.yt',
   // 首页菜单
   menuItem: [
     {
@@ -24,9 +24,20 @@ window.config = {
       value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini',
       text: 'ACL4SSR Online',
     },
+
+      {
+      value: 'https://cdn.jsdelivr.net/gh/NotSFC/subconverter-config@main/external-config/sfc.ini',
+      text: '私房菜专属规则',
+    },
+
+      {
+      value: 'https://cf.buliang0.cf/clash-rules/nodnsleak.ini',
+      text: 'DNS防泄漏',
+    },
+  
     {
-      value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini',
-      text: 'ACL4SSR Online Full',
+      value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini',
+      text: ' 精简版 自动测速、故障转移、负载均衡 ',
     },
   ],
 };
