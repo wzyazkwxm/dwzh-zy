@@ -3,6 +3,7 @@ window.config = {
   siteName: '开源爱好者订阅转换',
   // API 地址
   apiUrl: 'https://dwzh.azkwxm.site',
+  apiUrl: 'https://v.id9.cc',
   // 短域名服务地址
   shortUrl: 'https://suo.yt',
   // 首页菜单
