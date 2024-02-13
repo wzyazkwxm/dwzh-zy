@@ -1,6 +1,6 @@
 window.config = {
   // 网站标题
-  siteName: '开源爱好者订阅转换 暂时不支持新协议订阅转换'，
+  siteName: '订阅转换暂时不支持新协议订阅转换'，
   // API 地址
   apiUrl: 'https://dwzh.azkwxm.site',
   // 短域名服务地址
