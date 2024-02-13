@@ -2,16 +2,9 @@ window.config = {
   // 网站标题
   siteName: '开源爱好者订阅转换',
   // API 地址
-  apiUrl: 'https://cfysjd.wzry623090.workers.dev',
+  apiUrl: 'https://dwzh.azkwxm.site',
   // 短域名服务地址
   shortUrl: 'https://suo.yt',
- // 主订阅规则 
-  remoteConfigName: '私房菜'
-  remoteConfigUrl: 'https://cdn.jsdelivr.net/gh/NotSFC/subconverter-config@main/external-config/sfc.ini'
-//  DNS防泄漏规则
-  remoteConfigName:'DNS防泄漏'
-  remoteConfigUrl :'https://cf.buliang0.cf/clash-rules/nodnsleak.ini',
-
   // 首页菜单
   menuItem: [
     {
@@ -23,6 +16,28 @@ window.config = {
       title: 'GitHub',
       link: 'https://github.com/stilleshan/subweb',
       target: '_blank',
+    },
+  ],
+  // 远程配置地址,可以自行按照格式添加。
+  remoteConfigOptions: [
+    {
+      value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini',
+      text: 'ACL4SSR Online',
+    },
+
+      {
+      value: 'https://cdn.jsdelivr.net/gh/NotSFC/subconverter-config@main/external-config/sfc.ini',
+      text: '私房菜专属规则',
+    },
+
+      {
+      value: 'https://cf.buliang0.cf/clash-rules/nodnsleak.ini',
+      text: 'DNS防泄漏',
+    },
+  
+    {
+      value: 'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini',
+      text: ' 精简版 自动测速、故障转移、负载均衡 ',
     },
   ],
 };
