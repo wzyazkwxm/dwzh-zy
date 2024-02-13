@@ -8,7 +8,7 @@ window.config = {
   // 首页菜单
   menuItem: [
     {
-      title: '首页'，
+      title: '首页',
       link: '/',
       target: '',
     },
