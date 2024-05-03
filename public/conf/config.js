@@ -4,10 +4,6 @@ window.config = {
   // API 地址
   apiUrl: 'https://dwzh.azkwxm.site',
   
-  
-
-  
-
   // 短域名服务地址
   shortUrl: 'https://suo.yt',
   // 首页菜单
