@@ -2,9 +2,9 @@ window.config = {
   // 网站标题
   siteName: '开源爱好者订阅转换',
   // API 地址
-  apiUrl: 'https://dwzh.azkwxm.site
-  apiUrl: 'https://v.id9.cc',
-  apiUrl: 'https://id9.cc',
+  apiUrl: 'https://v.id9.cc
+  
+  
 
   
 
