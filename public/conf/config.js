@@ -2,7 +2,7 @@ window.config = {
   // 网站标题
   siteName: '开源爱好者订阅转换',
   // API 地址
-  apiUrl: 'https://dwzh.azkwxm.site',
+  apiUrl: 'https://dwzh.azkwxm.site
   
   // 短域名服务地址
   shortUrl: 'https://suo.yt',
@@ -16,7 +16,7 @@ window.config = {
     {
       title: 'GitHub',
       link: 'https://github.com/stilleshan/subweb',
-      target: '_blank',
+      target: '_blank'，
     },
   ],
   // 远程配置地址,可以自行按照格式添加。
