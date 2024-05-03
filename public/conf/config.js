@@ -2,7 +2,12 @@ window.config = {
   // 网站标题
   siteName: '开源爱好者订阅转换',
   // API 地址
-  apiUrl: 'https://dwzh.azkwxm.site',
+  apiUrl: 'https://dwzh.azkwxm.site
+  apiUrl: 'https://v.id9.cc',
+  apiUrl: 'https://id9.cc',
+
+  
+
   // 短域名服务地址
   shortUrl: 'https://suo.yt',
   // 首页菜单
@@ -41,3 +46,9 @@ window.config = {
     },
   ],
 };
+
+{
+      value: 'https://cdn.jsdelivr.net/gh/NotSFC/subconverter-config@main/external-config/sfc_nofallback.ini',
+      text: '私房菜sing-box规则',
+    },
+
